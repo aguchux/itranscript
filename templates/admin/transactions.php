@@ -20,8 +20,8 @@
 
             <div class="col-lg-12">
                 <div class="page-section">
-                   
-                <h2>Transactions & Payments</h2>
+
+                    <h2>Transactions & Payments</h2>
                     <table id="MyDatatable" class="display" style="width:100%">
                         <thead>
                             <tr>
@@ -50,7 +50,7 @@
                                         <?php endif; ?>
 
                                         <td><?= date("d-m-y", strtotime($payment->created)) ?></td>
-                                        <td><?= "<strong>{$User->surname}</strong>, {$User->firstname} {$User->middlename}" ?><br/><?= $User->email ?></td>
+                                        <td><?= "<strong>{$User->surname}</strong>, {$User->firstname} {$User->middlename}" ?><br /><?= "{$User->email} {$User->mobile}" ?></td>
                                         <td><?= $payment->transcriptid ?></td>
                                         <td><?= $Core->Monify($payment->amount) ?></td>
                                         <td><?= date("d-m-y", strtotime($payment->tranx_paid_at)) ?></td>

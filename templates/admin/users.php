@@ -27,19 +27,13 @@ $Users = $Core->adminListAdmins();
                                 <tr>
                                     <td><span class="<?= $user->verified ? 'text-success' : 'text-danger' ?>"><?= $user->accid ?></span></td>
                                     <td>
-                                        <?=
-                                            "
-                                        Surname: <strong>{$user->surname}</strong> ({$user->sex})<br/>
-                                        Other Names: <strong>{$user->firstname} {$user->middlename}</strong><br/>
-                                        Mobile: <strong>{$user->mobile}</strong><br/>
-                                        ";
-                                        ?>
+                                        <?= "Surname: <strong>{$user->surname}</strong> ({$user->sex})<br/> Other Names: <strong>{$user->firstname} {$user->middlename}</strong><br/> Mobile: <strong>{$user->mobile}</strong><br/> "; ?>
                                     </td>
                                     <td><?= $user->email ?></td>
                                     <td><?= $user->created ?></td>
                                     <td>
-                                        <a href="/my/admin/accounts/<?= $user->accid ?>/view" class="btn-link">View</a> | 
-                                        <a href="/my/admin/accounts/<?= $user->accid ?>/applications">Applications (<?= $Core->userCountApplications($user->accid) ?>)</a> | 
+                                        <a href="/my/admin/accounts/<?= $user->accid ?>/view" class="btn-link">View</a> |
+                                        <a href="/my/admin/accounts/<?= $user->accid ?>/applications">Applications (<?= $Core->userCountApplications($user->accid) ?>)</a> |
                                         <a href="/my/admin/accounts/<?= $user->accid ?>/transactions">Payments (<?= $Core->userCountPayments($user->accid) ?>)</a>
                                     </td>
 

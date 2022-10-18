@@ -31,7 +31,7 @@ $Transcripts = $Core->adminListTranscripts();
                                     <tr>
                                         <td><a href="/my/admin/transcripts/<?= $transcript->id ?>/update" class="<?= $transcript->progress >= 2 ? 'text-success' : 'text-danger' ?>"><?= $transcript->id ?></a></td>
                                         <td><?= $transcript->created ?></td>
-                                        <td><?= "<strong>{$User->surname}</strong>, {$User->firstname} {$User->middlename}" ?></td>
+                                        <td><?= "<strong>{$User->surname}</strong>, {$User->firstname} {$User->middlename} <br/>{$User->mobile}" ?></td>
                                         <td><?= $transcript->international ? 'INTERNATIONAL' : 'LOCAL' ?></td>
                                         <td>
                                             <?php
