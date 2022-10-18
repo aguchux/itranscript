@@ -1,0 +1,232 @@
+body {
+	 BACKGROUND-COLOR: White; margin: 0px 0px 0px;
+	FONT: 12px Arial, Verdana, sans-serif; COLOR: #666666; TEXT-ALIGN: justify; line-height:18px
+}
+
+
+h1 {font-size:18px; color:#000}
+h2 {font-size:18px; color: #FF3300}
+h3 {color:#FF3300}
+
+
+.small {
+	font-family:  Arial, Verdana, sans-serif;
+	font-size: 9px;
+}
+
+.medium {
+	font-family:  Arial, Verdana, sans-serif;
+	font-size: 12px;
+}
+
+.menuHeaderGreen {
+	font-family:  Arial, Verdana, sans-serif;
+	font-size: 12px; color: #7C201D;
+	font-weight: bold;
+}
+
+.whitemedium {
+	font-family:  Arial, Verdana, sans-serif;
+	font-size: 12px; color: #FF8313
+}
+
+.yellowmedium {
+	font-family:  Arial, Verdana, sans-serif;
+	font-size: 12px; color: #FFFF00
+}
+
+.coloredmediumbg {
+	font-family:  Arial, Verdana, sans-serif;
+	font-size: 12px; color:#FFFFFF; background-color:#FF8313
+}
+
+.big {
+	font-family:  Arial, Verdana, sans-serif;
+	font-size: 16px;
+}
+
+.big {
+	font-family:  Arial, Verdana, sans-serif;
+	font-size: 16px;
+}
+
+.bgTR{background-color:#000000;
+}
+
+.xbig {
+	font-family:  Arial, Verdana, sans-serif;
+	font-size: 24px;
+}
+
+.style1 {color: #FF8313}
+.style2 {color: #93847F}
+.style3 {
+	color: #8B806E;
+	font-weight: bold;}
+	
+.xbigwhite {
+	font-family:  Arial, Verdana, sans-serif;
+	font-size: 16px; color:#FFFFFF
+}
+
+.xbigcolored {
+	font-family:  Arial, Verdana, sans-serif;
+	font-size: 24px; color: #FF8313
+}
+.sbig {
+	font-family:  Arial, Verdana, sans-serif;
+	font-size:18px;
+}
+
+.sbigGreen {
+	font-family:  Arial, Verdana, sans-serif;
+	font-size:18px; color: Green;
+}
+
+.sbigcolored {
+	font-family:  Arial, Verdana, sans-serif;
+	font-size:12px; color:#000; font-weight:bold
+}
+
+.headertextmain {
+	font-family:  Arial, Verdana, sans-serif;
+	font-size:24px; color:#660007;
+}
+
+.headertextmaingrey {
+	font-family:  Arial, Verdana, sans-serif;
+	font-size:18px; color:#FBFBFB; font-weight:bold
+}
+
+.expanded {
+	font-family:  Arial, Verdana, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 2px;
+}
+
+.justified {
+	font-family:  Arial, Verdana, sans-serif;
+	text-align: justify;
+}
+
+.tiny {
+	font-family:  Georgia, Arial, serif;
+	font-size: 9px;
+	color: #FFFFFF;
+}
+
+.tiny2 {
+	font-family:  Georgia, Arial, serif;
+	font-size: 9px;
+	color: #333333;
+}
+
+.tinyred {
+	font-family:  Georgia, Arial, serif;
+	font-size: 9px;
+	color: #FF0000;
+}
+
+.tinyblue {
+	font-family:  Georgia, Arial, serif;
+	font-size: 10px;
+	color:#339900;
+}
+
+.tinycolor {
+	font-family:  Georgia, Arial, serif;
+	font-size: 10px;
+	color: #6C1E66;
+}
+
+.standardred {
+	font-family:  Georgia, Arial, serif;
+	font-size: 11px;
+	color: #156DC3;
+}
+
+.justred {
+	font-family:  Georgia, Arial, serif;
+	font-size: 11px;
+	color: #FF0000; font-style:italic;
+}
+ 
+
+a {
+	font-size: 11px; FONT-FAMILY: Verdana, arial, Impact; text-decoration: none;
+	color: Black;
+	font: bold;
+}
+
+
+a.whitelink {
+	font-size: 12px;
+	color: #FFFFFF;
+}
+a.whitelink:visited {
+	color: #FFFFFF;
+}
+a.whitelink:hover {
+	color: #000;
+}
+a.whitelink:active {
+	color: #FFFFFF;
+}
+
+
+
+a.Navlink {
+	font-size: 14px; font-family:Arial, Verdana, sans-serif;
+	color: #999999; text-decoration:none; font-weight:bold;
+}
+a.Navlink:visited {
+	color: #999999;
+}
+a.Navlink:hover {
+	color: #7C201D;
+}
+a.Navlink:active {
+	color: #999999;
+}
+
+.smallheaderfont{font-size:11px; font-weight:bold}
+
+
+
+.coloredBg{background-color:#E7E6DE;}
+
+.coloredBg2{background-color:#f5f7f8;}
+
+.coloredBg3{background-color: #0000CD;}
+
+.coloredBg4{background-color: Silver;}
+
+.coloredBgGry2{background-color: #999999;}
+
+.coloredBgGry3{background-color: #CACACA;}
+
+.coloredBg5{background-color: #00008B;}
+
+.rowselected{COLOR: #333333;BACKGROUND-COLOR: #DBEAF5;}
+
+.shade{COLOR: #333333;BACKGROUND-COLOR: #e5e5e5;}
+
+.blackshade{BACKGROUND-COLOR: #b5b5b5;FONT-WEIGHT: bold;}
+
+.lightRedShade{BACKGROUND-COLOR: #ff8080;FONT-WEIGHT: bold;}
+
+.lightGreenShade{BACKGROUND-COLOR: #B1E2B5;FONT-WEIGHT: bold;}
+
+.RedShade{BACKGROUND-COLOR: #ff1515;FONT-WEIGHT: bold;}
+.funkyFont{color:#FFFFFF; background-color: #2B2B2B}
+.whiteFontBold{
+font-family:Verdana, Arial;
+font-size:9px;
+color:#FFFFFF; font-weight:bold;
+}
+.whiteFontLite{
+font-family:Verdana, Arial;
+font-size:9px;
+color:#FFFFFF;
+}
