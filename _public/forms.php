@@ -228,6 +228,34 @@ $Route->add('/forms/my/edit-profile', function () {
 
 
 
+$Route->add('/forms/my/edit-profile-request', function () {
+
+    $Core = new Apps\Core;
+    $Template = new Apps\Template("/my/login");
+
+    //$token = $Template->data['token'];
+    //$Template->token($token );
+    $accid = $Template->storage('accid');
+
+    $data = $Core->post($_POST);
+
+    $Core->SetUserInfo($accid, "surname", $data->surname);
+    $Core->SetUserInfo($accid, "firstname", $data->firstname);
+    $Core->SetUserInfo($accid, "middlename", $data->middlename);
+    $Core->SetUserInfo($accid, "mobile", $data->mobile);
+    $Core->SetUserInfo($accid, "address", $data->address);
+    $Core->SetUserInfo($accid, "sex", $data->sex);
+    $Core->SetUserInfo($accid, "country", $data->country);
+    $Core->SetUserInfo($accid, "dob_day", $data->dob_day);
+    $Core->SetUserInfo($accid, "dob_month", $data->dob_month);
+    $Core->SetUserInfo($accid, "dob_year", $data->dob_year);
+    $Core->SetUserInfo($accid, "dob", "{$data->dob_year}-{$data->dob_month}-{$data->dob_day}");
+
+    $Template->redirect("/my");
+}, 'POST');
+
+
+
 
 
 $Route->add('/forms/my/edit-settings', function () {

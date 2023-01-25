@@ -17,6 +17,7 @@ $Transcripts = $Core->adminListTranscripts();
                                 <th>ID</th>
                                 <th>DATE</th>
                                 <th>APPLICANT</th>
+                                <th>MOBILE</th>
                                 <th>STATUS</th>
                                 <th>TYPE</th>
                                 <th> - </th>
@@ -31,7 +32,8 @@ $Transcripts = $Core->adminListTranscripts();
                                     <tr>
                                         <td><a href="/my/admin/transcripts/<?= $transcript->id ?>/update" class="<?= $transcript->progress >= 2 ? 'text-success' : 'text-danger' ?>"><?= $transcript->id ?></a></td>
                                         <td><?= $transcript->created ?></td>
-                                        <td><?= "<strong>{$User->surname}</strong>, {$User->firstname} {$User->middlename} <br/>{$User->mobile}" ?></td>
+                                        <td><?= "<strong>{$User->surname}</strong>, {$User->firstname} {$User->middlename}" ?></td>
+                                        <td><?= $User->mobile ?></td>
                                         <td><?= $transcript->international ? 'INTERNATIONAL' : 'LOCAL' ?></td>
                                         <td>
                                             <?php
@@ -61,6 +63,7 @@ $Transcripts = $Core->adminListTranscripts();
                                 <th>ID</th>
                                 <th>DATE</th>
                                 <th>APPLICANT</th>
+                                <th>MOBILE</th>
                                 <th>TYPE</th>
                                 <th> - </th>
                             </tr>

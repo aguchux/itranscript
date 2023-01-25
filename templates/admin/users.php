@@ -17,6 +17,7 @@ $Users = $Core->adminListAdmins();
                                 <th>ID</th>
                                 <th>NAME</th>
                                 <th>EMAIL</th>
+                                <th>MOBILE</th>
                                 <th>REGISTERED</th>
                                 <th> - </th>
                             </tr>
@@ -27,9 +28,10 @@ $Users = $Core->adminListAdmins();
                                 <tr>
                                     <td><span class="<?= $user->verified ? 'text-success' : 'text-danger' ?>"><?= $user->accid ?></span></td>
                                     <td>
-                                        <?= "Surname: <strong>{$user->surname}</strong> ({$user->sex})<br/> Other Names: <strong>{$user->firstname} {$user->middlename}</strong><br/> Mobile: <strong>{$user->mobile}</strong><br/> "; ?>
+                                        <?= "Surname: <strong>{$user->surname}</strong> ({$user->sex})<br/> Other Names: <strong>{$user->firstname} {$user->middlename}</strong><br/> "; ?>
                                     </td>
                                     <td><?= $user->email ?></td>
+                                    <td><?= $user->mobile ?></td>
                                     <td><?= $user->created ?></td>
                                     <td>
                                         <a href="/my/admin/accounts/<?= $user->accid ?>/view" class="btn-link">View</a> |
@@ -46,6 +48,7 @@ $Users = $Core->adminListAdmins();
                                 <th>ID</th>
                                 <th>NAME</th>
                                 <th>EMAIL</th>
+                                <th>MOBILE</th>
                                 <th>REGISTERED</th>
                                 <th> - </th>
                             </tr>

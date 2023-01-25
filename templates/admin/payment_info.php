@@ -5,11 +5,8 @@
 
             <div class="page-section">
                 <h2 class="mb-0">ACCID: <?= $AccidInfo->accid ?></h2>
-                <h1 class="mt-0">
-                    <?= "{$AccidInfo->surname}, {$AccidInfo->firstname} {$AccidInfo->middlename}," ?></h1>
-
+                <h1 class="mt-0"><?= "{$AccidInfo->surname}, {$AccidInfo->firstname} {$AccidInfo->middlename}," ?></h1>
                 <div class="list-group list-group-form">
-
 
                     <div class="list-group-item">
                         <div class="form-group row mb-0">
