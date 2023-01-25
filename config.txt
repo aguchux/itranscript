@@ -1,0 +1,96 @@
+<?
+
+/*
+ * Copyright (C) 2014-2020 De-Golojan Technologies Ltd. (www.golojan.com)
+ * Distributed under the terms of the license described in COPYING
+ * Constants
+ */
+
+define("appname", "Anthill");
+define("version", "2.0.0");
+define("upgrade", false);
+define("debug", true);
+define('DS', DIRECTORY_SEPARATOR);
+define('ROOT', dirname(dirname(__FILE__)));
+define('DIR', __DIR__);
+define("display_error", true);
+define("language", "en_US");
+define("url", __DIR__);
+define("baseurl", __DIR__);
+define("apps_dir", "./_apps/");
+define("templates_dir", "./templates/");
+define("templates_default", "404");
+define("templates_default_route", "/error/404/");
+define("vendor_dir", "./vendor/");
+define("assets_dir", "./templates/assets/");
+define("plugins_dir", "./_plugins/");
+define("layouts_dir", "./templates/layouts/");
+define("template_file_extension", "php");
+define("store_dir", "./_store/");
+define("public_dir", "./_public/");
+define("server", "remote");
+define("use_token_security", true);
+define("encrypt_salt", "7WAO342QFANY6IKBF7L7SWEUU79WL3VMT920VB5NQMW");
+define("encrypt_password", "7WAO342QFANY6IKBF7L7SWEUU79WL3VMT920VB5NQMW");
+
+define("default_timezone", "Africa/Lagos");
+define("offset_timezone", true);
+define("session_path", "./_sessions/");
+define("session_timout", 20);
+define("session_delete_timout", 30);
+define("auth_session_key", "logged_in");
+define("auth_url", "/auth/login");
+define("num_results_on_page", 5);
+
+define("domain", "https://itranscript.bibiananekwe.com/");
+
+define("use_quick_login", true);
+
+define("enable_DKIM_keys", false);
+
+define("db_host", "localhost");
+define("db_user", "bibiana_itranx");
+define("db_password", "FhB9kJTxMb3hY3Itr7qMtvMe7IMH0kr4ra1FD");
+define("db_name", "bibiana_itranx");
+define("db_port", null);
+define("db_charset", "utf8");
+define("db_socket", null);
+
+define("iTranscriptLocal", "75137");
+define("iTranscriptInternational", "75138");
+
+define("esut_500_Split", "SPL_NIDZKMmYxg");
+
+define("_15k_Split", "SPL_tnCYmReUeP");
+define("_20k_Split", "SPL_Ji75DwnUri");
+define("_35k_Split", "SPL_hZnrK8Qcq0");
+
+define("esut_15k_Split", "SPL_2p90NUr8Ab");
+define("esut_20k_Split", "SPL_DZARXYJ5v9");
+define("esut_35k_Split", "SPL_j1U43hm1rR");
+
+define("local_transcript_fee", 15000);
+define("international_transcript_fee", 35000);
+
+define("local_transcript_verification_fee", 20000);
+define("international_transcript_verification_fee", 35000);
+
+define("local_certificate_verification_fee", 20000);
+define("international_certificate_verification_fee", 35000);
+
+define("certificate_verification_fee", 20000);
+
+define("demo", false);
+if (demo) {
+    //DEMO//
+    define("paystack_secrete", "sk_test_0ae7389a3b85311814836fbb31a7e3af5c70f2a3");
+    define("use_paystack_split_pay", true);
+    define("demo_account", ["reedbricks@gmail.com", "chukwudi.ugwuja@esut.edu.ng"]);
+    //DEMO//
+} else {
+    define("paystack_secrete", "sk_live_af4e3c0c52fb5bdb984cfc67bbc9df6a684d1fc0");
+    define("use_paystack_split_pay", true);
+}
+define("items_per_page", 100);
+define("num_to_delete", 10);
+define("day_to_delete", 48);
